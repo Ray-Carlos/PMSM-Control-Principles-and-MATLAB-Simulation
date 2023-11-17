@@ -29,6 +29,7 @@ for Nref = Nref_range
     end
 end
 saveas(t1, 'plot/N.fig');
+saveas(t1, 'plot/N.png');
 
 t2 = tiledlayout(row,col);
 set(gcf,'position',[0,0,4000,4000])
@@ -57,5 +58,6 @@ for Nref = Nref_range
     end
 end
 saveas(t2, 'plot/F.fig');
+saveas(t2, 'plot/F.png');
 
 close_system(model, 0);
