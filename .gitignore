@@ -14,3 +14,5 @@ Sim/传统直接转矩控制/slprj/
 *.bc
 
 Sim/DCC DTC/slprj/
+
+Sim/模型预测占空比控制/
